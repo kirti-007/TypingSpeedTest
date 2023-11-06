@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 100vh;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(38,51,97,1) 0%, rgba(65,143,222,1) 79% );
+}
+.box{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+h1{
+    text-align: center;
+    margin: 0.5rem;
+    font-size: 2.6rem;
+    font-family: cursive;
+}
+h2{
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+textarea{
+    background: black;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    outline: none;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    font-size: 1.2rem;
+    font-family: cursive;
+    padding: 0.5rem 0.9rem;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
