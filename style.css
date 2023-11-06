@@ -22,14 +22,18 @@ h1{
     font-family: cursive;
 }
 h2{
-    font-size: 2rem;
+    font-size: 1.5rem;
+    color: whitesmoke;
     font-family: sans-serif;
+    text-align: center;
+    user-select: none;
 }
 textarea{
     background: black;
     color: whitesmoke;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     outline: none;
+    padding: 0.5rem;
 }
 .button{
     display: flex;
@@ -41,9 +45,15 @@ button{
     font-family: cursive;
     padding: 0.5rem 0.9rem;
     border-radius: 10px;
-    transition: 0.7s;
+    transition: 0.7s; 
+    cursor: pointer;
 }
 button:hover{
     background-color: black;
-    color: white;
+    color: white; 
+}
+#result{
+    font-size: 2rem;
+    color: rgb(6, 246, 6);
+    margin-bottom: 0.2rem;
 }
